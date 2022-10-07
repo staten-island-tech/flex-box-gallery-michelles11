@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+.header {
+  font-size: 75px;
+  background-color: #faebd7;
+  width: 650px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 25px;
+}
+.animal-card {
+  width: 500px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: rgb(204, 255, 229);
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-img {
+  width: 70%;
+}
+body {
+  background-color: rgb(153, 204, 255);
+}

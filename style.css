@@ -1,10 +1,22 @@
-img {
-  height: 3rem;
+h1,h2,h3,h4,h5,h6{
+  text-align:center;
 }
-.about {
-  height: 100vh;
+.header{
+  font-size:30px;
+  background-color:blueviolet;
+  width:650px;
+  padding:10x;
+  margin: 10px auto;
+  boreder-radius: 25px;
 }
-
-.container {
-  display: flex;
+.episode-card {
+  width:250 px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align:center;
+  background-color:antiquewhite;
+  border-radius:20px;
+}
+.card-img{
+  width:70%
 }
