@@ -1,22 +1,35 @@
-h1,h2,h3,h4,h5,h6{
-  text-align:center;
+html,
+body,
++ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 50%;
+  font-family: "Montserrat", sans-serif;
 }
-.header{
-  font-size:30px;
-  background-color:blueviolet;
-  width:650px;
-  padding:10x;
+
+.header {
+  font-size: 30px;
+  background-color: blueviolet;
+  width: 650px;
+  padding: 10x;
   margin: 10px auto;
   boreder-radius: 25px;
 }
 .episode-card {
-  width:250 px;
+  flex-direction: column;
+  width: 30%;
   padding: 10px;
   margin: 10px auto;
-  text-align:center;
-  background-color:antiquewhite;
-  border-radius:20px;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 20px;
 }
-.card-img{
-  width:70%
+.card-img {
+  width: 70%;
+}
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
