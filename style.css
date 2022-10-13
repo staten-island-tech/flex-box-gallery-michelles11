@@ -14,7 +14,7 @@ body,
   width: 650px;
   padding: 10x;
   margin: 10px auto;
-  boreder-radius: 25px;
+  border-radius: 25px;
 }
 .episode-card {
   flex-direction: column;
@@ -24,7 +24,10 @@ body,
   text-align: center;
   background-color: antiquewhite;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
 }
+
 .card-img {
   width: 70%;
 }
