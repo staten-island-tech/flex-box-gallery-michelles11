@@ -30,9 +30,19 @@ body,
 
 .card-img {
   width: 70%;
+  border-radius: 1rem;
 }
 .parent {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.button {
+  transition: all 0.3s;
+}
+.button1:hover {
+  transform: scale(1.25);
+}
+.w1 {
+  border-radius: 1rem;
 }
